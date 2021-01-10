@@ -658,13 +658,13 @@
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 	<script language="javascript" type="text/javascript" src="js/circle-progress.min.js"></script>
-	<!-- <script language="javascript" type="text/javascript" src="js/snowstorm.js"></script> -->
+	<script language="javascript" type="text/javascript" src="js/snowstorm.js"></script>
 	<script language="javascript" type="text/javascript" src="js/jquery-sakura.js"></script>
 	<script language="javascript" type="text/javascript">
 		//sakura
-		//	$(window).load(function () {
-		//		$('body').sakura();
-		//	});
+			$(window).load(function () {
+				$('body').sakura();
+			});
 		//skills
 		$('.circle01').circleProgress({
 			value: 0.95
@@ -791,7 +791,7 @@
 			$('html, body').stop().animate({ scrollTop: 0 });
 		});
 		// cont scrollup
-		var moveUp = $('.list_wrap').offset().top - 500;
+		var moveUp = $('.list_wrap').offset().top - 300;
 		$(window).scroll(function () {
 			var st = $(window).scrollTop();
 			if (st >= moveUp) {
