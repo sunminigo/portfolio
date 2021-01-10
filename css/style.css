@@ -67,7 +67,7 @@ h1,h2,h3,h4{font-family:'Raleway', Helvetica, Arial, sans-serif;font-weight:800;
 #portfolio .menu{}
 #portfolio .menu a{margin:0 10px;color:#e3e3e3;font-size:16px;font-weight:700;}
 #portfolio .menu a.active{color:#7de1ff;}
-#portfolio .list_wrap{position:relative;top:100px;margin:50px 0 0 -20px;opacity:0;}
+#portfolio .list_wrap{position:relative;top:100px;height:0;margin:50px 0 0 -20px;opacity:0;}
 #portfolio .list_wrap li{float:left;width:calc((100% / 4) - 20px);height:280px;margin:20px 0 0 20px;background:#fff;border-radius:20px;box-shadow: 0 3px 6px rgba(0,0,0,.1);overflow:hidden;}
 
 #portfolio .web{}
